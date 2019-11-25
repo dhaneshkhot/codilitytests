@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FrogRiverOne {
+
+    // Detected time complexity: O(N)
     public int solution(int X, int[] A) {
         Map<Integer, Integer> map = new HashMap<>();
         int time = -1;
